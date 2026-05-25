@@ -1,13 +1,10 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-data/
-emails/
-anon/
 old/
 *.aux
 *.log
 *.out
 *.synctex.gz
 paper/ 
-paper/ 
+
