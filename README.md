@@ -102,31 +102,6 @@ This notebook extends the responsibility framework into the temporal setting. Fo
 
 ---
 
-# Outputs
-
-Generated figures are saved to:
-
-```text
-notebooks/images/
-```
-
-Typical outputs include:
-
-```text
-source_participation.png
-user_participation.png
-cumulative_tweets.png
-distribution_weights.png
-rank_agreement_scatter.png
-operational_network.png
-responsibility_absolute.png
-responsibility_percentage_to_date.png
-float_vs_exact_timing.png
-float_vs_exact_error.png
-```
-
----
-
 # Source code
 
 The `src/` directory is intended to contain reusable implementations extracted from the notebooks, including:
@@ -184,11 +159,10 @@ The repository prioritises exact reproducibility using rational arithmetic throu
 Recommended notebook execution order:
 
 ```text
-1. basic_examples.ipynb
-2. validity_checker.ipynb
-3. data_explorer.ipynb
-4. global_responsibility.ipynb
-5. dynamic_responsibility.ipynb
+1. validity_checker.ipynb
+2. data_explorer.ipynb
+3. global_responsibility.ipynb
+4. dynamic_responsibility.ipynb
 ```
 
 ---
